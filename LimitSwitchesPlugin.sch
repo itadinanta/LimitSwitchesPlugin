@@ -1,0 +1,281 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:LimitSwitchesPlugin-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "jeu. 02 avril 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X03_FEMALE JY2
+U 1 1 593EFA99
+P 5300 3100
+F 0 "JY2" H 5300 3400 50  0000 C CNN
+F 1 "CONN_01X03_FEMALE" H 5300 2800 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight" H 5300 3300 50  0001 C CNN
+F 3 "" H 5300 3300 50  0001 C CNN
+	1    5300 3100
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_01X03_FEMALE JZ1
+U 1 1 593EFB72
+P 5300 2350
+F 0 "JZ1" H 5300 2650 50  0000 C CNN
+F 1 "CONN_01X03_FEMALE" H 5300 2050 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight" H 5300 2550 50  0001 C CNN
+F 3 "" H 5300 2550 50  0001 C CNN
+	1    5300 2350
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_01X03_FEMALE JZ2
+U 1 1 593EFB9D
+P 5300 1600
+F 0 "JZ2" H 5300 1900 50  0000 C CNN
+F 1 "CONN_01X03_FEMALE" H 5300 1300 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight" H 5300 1800 50  0001 C CNN
+F 3 "" H 5300 1800 50  0001 C CNN
+	1    5300 1600
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_01X02_FEMALE JS1
+U 1 1 593EFBD8
+P 1900 2050
+F 0 "JS1" H 1900 2250 50  0000 C CNN
+F 1 "CONN_01X02_FEMALE" H 1950 1800 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B02B-XH-A_02x2.50mm_Straight" H 1900 2150 50  0001 C CNN
+F 3 "" H 1900 2150 50  0001 C CNN
+	1    1900 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X03_FEMALE JY1
+U 1 1 593EFC90
+P 5300 3850
+F 0 "JY1" H 5300 4150 50  0000 C CNN
+F 1 "CONN_01X03_FEMALE" H 5300 3550 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight" H 5300 4050 50  0001 C CNN
+F 3 "" H 5300 4050 50  0001 C CNN
+	1    5300 3850
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_01X03_FEMALE JX2
+U 1 1 593EFCF5
+P 5300 4600
+F 0 "JX2" H 5300 4900 50  0000 C CNN
+F 1 "CONN_01X03_FEMALE" H 5300 4300 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight" H 5300 4800 50  0001 C CNN
+F 3 "" H 5300 4800 50  0001 C CNN
+	1    5300 4600
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_01X03_FEMALE JX1
+U 1 1 593EFD18
+P 5300 5350
+F 0 "JX1" H 5300 5650 50  0000 C CNN
+F 1 "CONN_01X03_FEMALE" H 5300 5050 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight" H 5300 5550 50  0001 C CNN
+F 3 "" H 5300 5550 50  0001 C CNN
+	1    5300 5350
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_02X16 J0
+U 1 1 593EF82E
+P 3100 4400
+F 0 "J0" H 3100 5250 50  0000 C CNN
+F 1 "CONN_02X16" V 3100 4400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x16_Pitch2.54mm" H 3100 3300 50  0001 C CNN
+F 3 "" H 3100 3300 50  0001 C CNN
+	1    3100 4400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3350 5150 5200 5150
+Wire Wire Line
+	3350 4950 3850 4950
+Wire Wire Line
+	3850 4950 3850 3650
+Wire Wire Line
+	3850 3650 5200 3650
+Wire Wire Line
+	3350 4850 3750 4850
+Wire Wire Line
+	3750 4850 3750 2900
+Wire Wire Line
+	3750 2900 5200 2900
+Wire Wire Line
+	3350 4750 3650 4750
+Wire Wire Line
+	3650 4750 3650 2150
+Wire Wire Line
+	3650 2150 5200 2150
+Wire Wire Line
+	3350 4650 3550 4650
+Wire Wire Line
+	3550 4650 3550 1400
+Wire Wire Line
+	3550 1400 5200 1400
+Wire Wire Line
+	2850 5150 2650 5150
+Wire Wire Line
+	2650 5150 2650 5350
+Wire Wire Line
+	2650 5350 5200 5350
+Wire Wire Line
+	2850 4950 2450 4950
+Wire Wire Line
+	2450 4950 2450 5550
+Wire Wire Line
+	2450 5550 4150 5550
+Wire Wire Line
+	4150 5550 4150 3850
+Wire Wire Line
+	4150 3850 5200 3850
+Wire Wire Line
+	2850 4850 2350 4850
+Wire Wire Line
+	2350 4850 2350 5650
+Wire Wire Line
+	2350 5650 4250 5650
+Wire Wire Line
+	4250 5650 4250 3100
+Wire Wire Line
+	4250 3100 5200 3100
+Wire Wire Line
+	2850 4750 2250 4750
+Wire Wire Line
+	2250 4750 2250 5750
+Wire Wire Line
+	2250 5750 4350 5750
+Wire Wire Line
+	4350 5750 4350 2350
+Wire Wire Line
+	4350 2350 5200 2350
+Wire Wire Line
+	2850 4650 2150 4650
+Wire Wire Line
+	2150 4650 2150 5850
+Wire Wire Line
+	2150 5850 4450 5850
+Wire Wire Line
+	4450 5850 4450 1600
+Wire Wire Line
+	4450 1600 5200 1600
+Wire Wire Line
+	3350 4550 3450 4550
+Wire Wire Line
+	3450 4550 3450 1950
+Wire Wire Line
+	3450 1950 2000 1950
+Wire Wire Line
+	2850 4550 2150 4550
+Wire Wire Line
+	2150 4550 2150 2150
+Wire Wire Line
+	2150 2150 2000 2150
+Wire Wire Line
+	4850 5550 5200 5550
+Wire Wire Line
+	4850 4800 5200 4800
+Connection ~ 4850 4800
+Wire Wire Line
+	4850 4050 5200 4050
+Connection ~ 4850 4050
+Wire Wire Line
+	3350 3300 4850 3300
+Wire Wire Line
+	4850 3300 5200 3300
+Connection ~ 4850 3300
+Wire Wire Line
+	5200 2550 4850 2550
+Connection ~ 4850 2550
+Wire Wire Line
+	5200 1800 4850 1800
+Wire Wire Line
+	4850 1800 4850 2550
+Wire Wire Line
+	4850 2550 4850 3300
+Wire Wire Line
+	4850 3300 4850 4050
+Wire Wire Line
+	4850 4050 4850 4800
+Wire Wire Line
+	4850 4800 4850 5550
+Wire Wire Line
+	3350 3300 3350 3650
+NoConn ~ 2850 3750
+NoConn ~ 2850 3850
+NoConn ~ 2850 3950
+NoConn ~ 2850 4050
+NoConn ~ 2850 4150
+NoConn ~ 2850 4250
+NoConn ~ 2850 4350
+NoConn ~ 2850 4450
+NoConn ~ 3350 4450
+NoConn ~ 3350 4350
+NoConn ~ 3350 4250
+NoConn ~ 3350 4150
+NoConn ~ 3350 4050
+NoConn ~ 3350 3950
+NoConn ~ 3350 3850
+NoConn ~ 3350 3750
+NoConn ~ 2850 3650
+Wire Wire Line
+	2850 5050 2550 5050
+Wire Wire Line
+	2550 5050 2550 5450
+Wire Wire Line
+	2550 5450 4050 5450
+Wire Wire Line
+	4050 5450 4050 4600
+Wire Wire Line
+	4050 4600 5200 4600
+Wire Wire Line
+	3350 5050 3950 5050
+Wire Wire Line
+	3950 5050 3950 4400
+Wire Wire Line
+	3950 4400 5200 4400
+$EndSCHEMATC

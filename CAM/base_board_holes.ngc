@@ -1,0 +1,319 @@
+(Generated with: DXF2GCODE, Version: Py2.7.12+ PyQt4.11.4, Date: $Date: Sun Apr 17 16:32:22 2016 +0200 $)
+(Created from file: /home/nico/Projects/Electronics/LimitSwitchesPlugin/CAM/base_board.dxf)
+(Time: Thu Jun 15 23:26:55 2017)
+(G21 Units in millimeters)  (G90 Absolute programming) 
+G21 (Units in millimeters)
+G90 (Absolute programming)
+G64 (Default cutting)
+G17 (XY plane)
+G40 (Cancel radius comp.)
+G49 (Cancel length comp.)
+
+G0 Z   7.000 
+
+(*** LAYER: Holes ***)
+T1 M6
+S1000
+
+(* SHAPE Nr: 0 *)
+G0 X  10.000 Y  90.000
+M3 M8
+G0 Z   3.000 
+F50
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+
+(* SHAPE Nr: 1 *)
+G0 X  10.000 Y  50.000
+M3 M8
+G0 Z   3.000 
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+
+(* SHAPE Nr: 2 *)
+G0 X  30.000 Y  30.000
+M3 M8
+G0 Z   3.000 
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+
+(* SHAPE Nr: 3 *)
+G0 X  30.000 Y  50.000
+M3 M8
+G0 Z   3.000 
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+
+(* SHAPE Nr: 4 *)
+G0 X  30.000 Y  70.000
+M3 M8
+G0 Z   3.000 
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+
+(* SHAPE Nr: 5 *)
+G0 X  30.000 Y  90.000
+M3 M8
+G0 Z   3.000 
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+
+(* SHAPE Nr: 6 *)
+G0 X  50.000 Y  70.000
+M3 M8
+G0 Z   3.000 
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+
+(* SHAPE Nr: 7 *)
+G0 X  50.000 Y  30.000
+M3 M8
+G0 Z   3.000 
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+
+(* SHAPE Nr: 8 *)
+G0 X  70.000 Y  30.000
+M3 M8
+G0 Z   3.000 
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+
+(* SHAPE Nr: 9 *)
+G0 X  70.000 Y  50.000
+M3 M8
+G0 Z   3.000 
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+
+(* SHAPE Nr: 10 *)
+G0 X  70.000 Y  70.000
+M3 M8
+G0 Z   3.000 
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+
+(* SHAPE Nr: 11 *)
+G0 X  70.000 Y  90.000
+M3 M8
+G0 Z   3.000 
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+
+(* SHAPE Nr: 12 *)
+G0 X  80.000 Y  90.000
+M3 M8
+G0 Z   3.000 
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+
+(* SHAPE Nr: 13 *)
+G0 X 120.000 Y  90.000
+M3 M8
+G0 Z   3.000 
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+
+(* SHAPE Nr: 14 *)
+G0 X 140.000 Y  90.000
+M3 M8
+G0 Z   3.000 
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+
+(* SHAPE Nr: 15 *)
+G0 X 120.000 Y  70.000
+M3 M8
+G0 Z   3.000 
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+
+(* SHAPE Nr: 16 *)
+G0 X 100.000 Y  70.000
+M3 M8
+G0 Z   3.000 
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+
+(* SHAPE Nr: 17 *)
+G0 X  80.000 Y  70.000
+M3 M8
+G0 Z   3.000 
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+
+(* SHAPE Nr: 18 *)
+G0 X  80.000 Y  50.000
+M3 M8
+G0 Z   3.000 
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+
+(* SHAPE Nr: 19 *)
+G0 X 120.000 Y  50.000
+M3 M8
+G0 Z   3.000 
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+
+(* SHAPE Nr: 20 *)
+G0 X 140.000 Y  50.000
+M3 M8
+G0 Z   3.000 
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+
+(* SHAPE Nr: 21 *)
+G0 X 120.000 Y  30.000
+M3 M8
+G0 Z   3.000 
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+
+(* SHAPE Nr: 22 *)
+G0 X 100.000 Y  30.000
+M3 M8
+G0 Z   3.000 
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+
+(* SHAPE Nr: 23 *)
+G0 X  80.000 Y  30.000
+M3 M8
+G0 Z   3.000 
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+
+(* SHAPE Nr: 24 *)
+G0 X  10.000 Y  10.000
+M3 M8
+G0 Z   3.000 
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+
+(* SHAPE Nr: 25 *)
+G0 X  30.000 Y  10.000
+M3 M8
+G0 Z   3.000 
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+
+(* SHAPE Nr: 26 *)
+G0 X  70.000 Y  10.000
+M3 M8
+G0 Z   3.000 
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+
+(* SHAPE Nr: 27 *)
+G0 X  80.000 Y  10.000
+M3 M8
+G0 Z   3.000 
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+
+(* SHAPE Nr: 28 *)
+G0 X 120.000 Y  10.000
+M3 M8
+G0 Z   3.000 
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+
+(* SHAPE Nr: 29 *)
+G0 X 140.000 Y  10.000
+M3 M8
+G0 Z   3.000 
+G1 Z  -6.000
+(Drilled hole)
+G1 Z   3.000
+G0 Z   7.000 
+M9 M5
+G0 X   0.000 Y   0.000
+M2 (Program end)
